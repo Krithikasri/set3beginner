@@ -1,0 +1,9 @@
+a,b=map(int,input().split())
+c,d=map(int,input().split())
+q=max(a,c)
+w=min(a,c)
+e=q-w
+r=max(b,d)
+t=min(b,d)
+y=r-t
+print(e,y)
